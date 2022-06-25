@@ -19,7 +19,7 @@
 
   img {
     width: 90px;
-    height: 20px;
+    height: auto;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -31,7 +31,7 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
   list-style: none;
@@ -56,7 +56,7 @@
       text-decoration: none;
       flex-direction: column;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: 900;
       transition: all 0.3s ease-in-out;
 
       &:hover {
